@@ -4,6 +4,10 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
+/**
+ * 查看服务状态 service rabbitmq-server status
+ * http://192.18.0.15:15672/ rmbbitmq页面
+ */
 public class Producer {
     private final static String QUEUE_NAME = "hello";
     public static void main(String[] args) throws Exception {
