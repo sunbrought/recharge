@@ -1,7 +1,7 @@
 package org.sunbrought.RabbitMQ.workqueue.hello;
 
 import com.rabbitmq.client.*;
-import org.sunbrought.RabbitMQ.workqueue.utils.RabbitMqUtils;
+import org.sunbrought.RabbitMQ.utils.RabbitMqUtils;
 
 /**
  * 工作线程 相当于之前的消费者

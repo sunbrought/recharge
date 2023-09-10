@@ -1,9 +1,7 @@
 package org.sunbrought.RabbitMQ.workqueue.hello;
 
 import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
-import org.sunbrought.RabbitMQ.workqueue.utils.RabbitMqUtils;
+import org.sunbrought.RabbitMQ.utils.RabbitMqUtils;
 
 import java.util.Scanner;
 

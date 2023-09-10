@@ -1,4 +1,4 @@
-package org.sunbrought.RabbitMQ.workqueue.utils;
+package org.sunbrought.RabbitMQ.utils;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
