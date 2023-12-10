@@ -1,0 +1,13 @@
+
+git创建仓库
+分为两种情况,一种是没有仓库，一种是已有仓库。
+1.从零开始创建本地库，并推送到远程
+git init -- 新建一个本地仓库
+git add . --将所有文件加入到仓库中
+git add README.md -- 将README.md文件加入到仓库中
+git commit -m "提交描述" -- 将文件提交到本地仓库
+git remote add origin "远程仓库地址" -- 添加远程仓库，origin是一个远程主机的别名，名称可以随意取，一个远程主机上可以有多个远程仓库
+git push -u origin master -- 将本地仓库push到远程主机origin的master分支，并将origin设为默认远程主机 -u参数设置默认远程主机，后续push代码，不写主机名的话，就是默认主机
+2.克隆已有仓库到本地
+git clone /path/to/repository  --克隆本地库
+git clone  git/ssh/http[s]/ftp[s]/file/rsync:username@ip/path/to/repository  --克隆远端库
